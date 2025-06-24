@@ -15,7 +15,10 @@ Timezone-aware scheduling
 Data seeding via CSV files
 Comprehensive error handling
 Installation
-Clone the repository: git clone https://github.com/macn1/booking_task.git 2.Create and activate virtual environment: bashpython -m venv venv source venv/bin/activate # Linux/Mac venv\Scripts\activate
+1.Clone the repository: git clone https://github.com/macn1/booking_task.git
+
+2.Create and activate virtual environment: bashpython -m venv venv source venv/bin/activate # Linux/Mac venv\Scripts\activate
+
 3.installation pip install -r requirements.txt
 
 4.Run migrations: python manage.py migrate
@@ -26,7 +29,9 @@ Clone the repository: git clone https://github.com/macn1/booking_task.git 2.Crea
 
 API Endpoints 🌐 Base URL: http://localhost:8000/api Endpoint Method Description
 
-/classes/ GET List all upcoming classes /book/ POST Create a new booking /bookings/ GET List bookings by email
+/classes/   GET List all upcoming classes 
+/book/      POST Create a new booking 
+/bookings/   GET List bookings by email
 
 Example Requests
 
@@ -38,4 +43,5 @@ Create Booking curl -X POST "http://localhost:8000/api/book/"
 
 Get Client Bookings curl -X GET "http://localhost:8000/api/bookings/?email=john@example.com"
 
-Testing 🧪 Run Unit Tests python manage.py test
+Testing 🧪 Run Unit Tests
+python manage.py test

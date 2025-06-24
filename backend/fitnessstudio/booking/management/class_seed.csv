@@ -1,0 +1,5 @@
+id,name,date_time,instructor,capacity,available_slots
+1,YOGA,2025-07-01 07:00:00,Alice Johnson,20,20
+2,ZUMBA,2025-07-01 18:00:00,Bob Smith,15,15
+3,HIIT,2025-07-02 06:30:00,Carla Martinez,10,10
+4,YOGA,2025-07-02 08:00:00,David Lee,25,25
